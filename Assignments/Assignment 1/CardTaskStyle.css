@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.total-container {
+    display: flex;
+    justify-content: center;   
+    gap: 100px;                        /* Extra spacing */
+    padding: 20px;
+    flex-wrap: wrap;     
+                 
+}
+
+.title{
+    text-align: center;
+}
+
+.product {
+    width:20%;                          
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(56, 197, 56);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 8px;
+    border: none;
+}
+
+.image{
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+}
